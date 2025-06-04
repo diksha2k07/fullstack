@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .fixed
+        {
+            position:fixed;
+            height:10px;
+        }
+        .sticky
+        {
+            position:sticky;
+            top:0px   
+        }
+        .relative
+        {
+            position:relative;
+            top:10px;
+            left:150px;
+            height: 400vh;
+        }
+        .child
+        {
+            position:absolute;
+            top:10px;
+            left:100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed">
+        <span>fixed</span>
+    </div>
+    <div class="sticky">
+        <span>sticky</span>
+    </div>
+    <div class="relative">
+        <span>relative</span>
+        <div class="child">
+            <span>absolute</span>
+        </div>
+</body>
+</html>

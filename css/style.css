@@ -1,0 +1,41 @@
+.style
+{
+    background-color: bisque; /* class selector*/
+}
+.style:hover
+{
+    background-color: lightblue;
+}
+#style
+{
+    background-color: antiquewhite;  /* id selector*/
+}
+#style:hover
+{
+    background-color: lightcoral;
+}
+#one,#two,#three
+{
+    color: rgb(223, 127, 255);   /* group selector*/
+}
+ul
+{
+    color: grey;    /* tag selector*/
+}
+a
+{
+    color:rgb(128, 203, 240) ;
+    background-color: darkcyan;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+a:hover
+{
+    color:rgb(128, 203, 240) ;
+    background-color: lightcyan;
+}
+/* *  [universal selector]
+ {
+  color: chocolate; 
+}*/ 
