@@ -28,11 +28,56 @@
       transition: all 0.3s ease;
     
     } 
+    .container
+    {
+       display: flex; 
+       justify-content: left;
+       align-items:start;
+       height: 40vh;
+       flex-direction: column;
+    }
+    .item
+    {
+       /* border: solid 2px black; */
+       padding: 10px;
+       width: 300px;
+       height: 100px;
+    }
+    .item1
+    {
+        background-color: red;
+    }
+     .item2
+    {
+        background-color: yellow;
+    }
+     .item3
+    {
+        background-color: red;
+    }
+    img
+    {
+        width: 70px;
+        float: right;
+        margin: 11px 18.1px;  
+    }
     </style>
 </head>
 <body>
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores voluptatum assumenda ipsa corrupti eum. Tenetur adipisci impedit aut assumenda, modi aliquid blanditiis esse voluptas quis. Eligendi dolorum asperiores labore id omnis debitis eum unde excepturi porro ratione, perspiciatis et reiciendis itaque provident exercitationem amet veniam nisi nam eveniet iste! ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia fuga tempore accusamus vel laudantium, enim officia magni dignissimos, hic repellendus dolorem nam maiores consectetur reiciendis fugit animi modi. Ea?
     </p>
+    <span style="display:inline; background-color: aqua;">Inline</span>
+    <span style="display: block; background-color: aquamarine;">Block</span>
+    <span style="display: inline-block; background-color: lightseagreen; width: 200px;">Inline Block</span><br><br><br><br>
+    <div class="container">
+        <div class="item item1"></div>
+        <div class="item2">
+            <img src="./assets/ele.jpg" alt="symbol">
+            <img src="./assets/flower.jpg" alt="symbol">
+            <img src="./assets/ele1.jpg" alt="symbol">
+        </div>    
+        <div class="item item3"></div>
+    </div>
 </body>
 </html>
